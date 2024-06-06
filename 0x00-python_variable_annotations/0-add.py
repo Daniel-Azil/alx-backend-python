@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Strongly typed python"""
+"""
+	A module that utilizes type-annotated function.
+"""
 
 
 def add(a: float, b: float) -> float:
