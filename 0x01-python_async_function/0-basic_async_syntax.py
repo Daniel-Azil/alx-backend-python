@@ -15,6 +15,6 @@ async def wait_random(max_delay: int = 10) -> float:
         An asynchronous function that multiplies
         given integer with a random number.
     """
-    wait = random.random() * max_delay
-    await asyncio.sleep(wait)
-    return wait
+    var = random.random() * max_delay
+    await asyncio.sleep(var)
+    return var
